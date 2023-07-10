@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cookie', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    margin-bottom: 140px;
+}
+.banner{
+    background-image: url(images/banner/banner1.png);
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+.bannertext{
+    width: 470px;
+    margin-right: 200px;
+
+}
+.bannertext h1{
+    font-size:70px;
+    margin-bottom: 20px;
+}
+.bannertext p{
+    font-size:18px;
+    margin-bottom: 20px;
+    color: rgb(72, 72, 72);
+    line-height: 25px;
+}
+.bannertext button{
+    background-color: rgb(252, 96, 39);
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 18px 25px;
+    border: none;
+    border-radius: 10px;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    margin: 20px;
+    color: black;
+    line-height: 28px;
+    font-size: 18px;
+
+
+}
+.div1{
+    margin-right: 100px;
+}
+.div2{
+    margin-top: 200px;
+    width: 380px;
+}
+.div2 h1{
+    font-size: 40px;
+    padding-bottom: 25px;
+    color: rgb(252, 96, 39);
+    font-weight: bolder;
+}
+.div2 p{
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(93, 93, 93);
+
+}
+.div2 h1{
+    font-size: 40px;
+}
+
+.iconediv{
+    text-align: center;
+    margin: 150px;
+}
+.iconediv >h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.icdiv4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon >img{
+    height: 93px;
+}
+.icon >h1 {
+    font-size: 30px;
+}
+.icon > p {
+    font-size: 25px;
+}
